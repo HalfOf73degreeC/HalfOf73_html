@@ -16,6 +16,9 @@
        url(../myFont/myFont.ttf) format("truetype"), /* Safari, Android, iOS */
        url(../myFont/myFont.svg#myFont) format("svg"); /* Legacy iOS */
 }
+*{
+    font-family: Microsoft JhengHei;
+}
 html, body {
 	line-height: 1.7;
 	margin: 0;
@@ -455,7 +458,7 @@ section {
 	display: block;
 	text-transform: none;
 	font-weight: 400;
-	font-family: 'Kaushan Script', cursive;
+	font-family: 'Kaushan Script', 'Microsoft JhengHei', cursive;
 	font-size: 20px;
 	margin-bottom: 20px;
 }
@@ -473,7 +476,7 @@ section {
 	display: block;
 	text-transform: none;
 	font-weight: 500;
-	font-family: 'Kaushan Script', cursive;
+	font-family: 'Kaushan Script', 'Microsoft JhengHei' , cursive;
 	font-size: 20px;
 	margin-bottom: 5px;
 }
