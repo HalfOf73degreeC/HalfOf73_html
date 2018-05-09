@@ -29,24 +29,25 @@
 
 	<!-- Header
     ================================================== -->
-	<header id="nino-story">
-		<nav id="nino-navbar" class="navbar navbar-default" style="background-color:rgba(243,129,129,0.8);">
-			<div class="container">
-				<!-- Brand and toggle get grouped for better mobile display -->
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nino-navbar-collapse">
-						<span class="sr-only">Toggle navigation</span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand" href="index.html">Half of 73°C</a>
-				</div>
+	<header id="nino-header">
+		<div id="nino-headerInner">					
+			<nav id="nino-navbar" class="navbar navbar-default" role="navigation">
+				<div class="container">
 
-				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="nino-menuItem pull-right">
-					<div class="collapse navbar-collapse pull-left" id="nino-navbar-collapse">
-						<ul class="nav navbar-nav">
+					<!-- Brand and toggle get grouped for better mobile display -->
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nino-navbar-collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="homepage.html">Half Of 73℃</a>
+					</div>
+
+					<!-- Collect the nav links, forms, and other content for toggling -->
+					<div class="nino-menuItem pull-right">
+						<div class="collapse navbar-collapse pull-left" id="nino-navbar-collapse">
 							<ul class="nav navbar-nav">
 								<li class="active"><a href="#nino-header">Home <span class="sr-only">(current)</span></a></li>
 								<li><a href="#nino-story">About</a></li>
@@ -55,118 +56,215 @@
 								<li><a href="#nino-portfolio">Work</a></li>
 								<li><a href="#nino-latestBlog">Blog</a></li>
 							</ul>
+						</div><!-- /.navbar-collapse -->
+						<ul class="nino-iconsGroup nav navbar-nav">
+							<li><a href="#"><i class="mdi mdi-cart-outline nino-icon"></i></a></li>
+							<li><a href="#" class="nino-search"><i class="mdi mdi-magnify nino-icon"></i></a></li>
 						</ul>
 					</div>
-					<!-- /.navbar-collapse -->
-					<ul class="nino-iconsGroup nav navbar-nav">
-						<li><a href="#"><i class="mdi mdi-cart-outline nino-icon"></i></a></li>
-						<li><a href="#" class="nino-search"><i class="mdi mdi-magnify nino-icon"></i></a></li>
-					</ul>
-				</div>
-			</div><!-- /.container-fluid -->
-		</nav>
-</header><!--/#header-->		
+				</div><!-- /.container-fluid -->
+			</nav>
+    </section>
 
- <!-- Happy Client
+  <!-- Latest Blog
     ================================================== -->
-    <section id="nino-happyClient">
+    <section id="nino-latestBlog">
     	<div class="container">
     		<h2 class="nino-sectionHeading">
-				<!-- <span class="nino-subHeading">最新消息</span>
-				What people say -->
-				<span class="nino-subHeading">活動新訊</span>
+				<span class="nino-subHeading">最新消息</span>
+				
 			</h2>
 			<div class="sectionContent">
-				<div class="row">       
-					<div class="col-md-6">
-						<div layout="row" class="item">
-							<div class="nino-avatar fsr">
-								<img class="img-circle" src="images/happy-client/donation.png" alt="">
+				<div class="row">
+					<div class="col-md-4 col-sm-4">
+						<article>
+							<div class="articleThumb">
+								<a href="#"><img src="images/story/person.jpg" alt=""></a>
+								<div class="date">
+									<span class="number">8</span>
+									<span class="text">July</span>
+								</div>
 							</div>
-							<div class="info">
-								<h4 class="name">挺．有趣</h4>
-								<span class="regency">【公益捐贈】</span>
-								<p class="desc">
-									讓善念升起的剎那，化為永恆的善行！
-								</p>
-							</div>
-						</div>
+							<h3 class="articleTitle"><a href="">挺．有趣</a></h3>
+							<span class="regency">【公益捐贈】</span>
+							<p class="articleDesc">
+								讓善念升起的剎那，化為永恆的善行！<br><br>
+							</p>
+
+							<div class="articleMeta">
+								<a href="#"><i class="mdi mdi-eye nino-icon"></i> 543</a>
+								<a href="#"><i class="mdi mdi-comment-multiple-outline nino-icon"></i> 15</a>
+							</div><br>
+						</article>
 					</div>
-					<div class="col-md-6">
-						<div layout="row" class="item">
-							<div class="nino-avatar fsr">
-								<img class="img-circle" src="images/happy-client/teamwork.png" alt="">
+					<div class="col-md-4 col-sm-4">
+						<article>
+							<div class="articleThumb">
+								<a href="#"><img src="images/story/share.jpg" alt=""></a>
+								<div class="date">
+									<span class="number">9</span>
+									<span class="text">July</span>
+								</div>
 							</div>
-							<div class="info">
-								<h4 class="name">用心蚤蚤看</h4>
-								<span class="regency">【愛心義賣】</span>
-								<p class="desc">
-									以愛物、惜物之理念珍惜所有資源，耕植良善共享感恩之社會風氣！
-								</p>
+							<h3 class="articleTitle"><a href="">用心蚤蚤看</a></h3>
+							<span class="regency">【愛心義賣】</span>
+							<p class="articleDesc">
+								以愛物、惜物之理念珍惜所有資源，耕植良善共享感恩之社會風氣！<br>
+							</p>
+							<div class="articleMeta">
+								<a href="#"><i class="mdi mdi-eye nino-icon"></i> 995</a>
+								<a href="#"><i class="mdi mdi-comment-multiple-outline nino-icon"></i> 42</a>
 							</div>
-						</div>
+						</article>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<article>
+							<div class="articleThumb">
+								<a href="#"><img src="images/story/elders.jpg" alt=""></a>
+								<div class="date">
+									<span class="number">10</span>
+									<span class="text">July</span>
+								</div>
+							</div>
+							<h3 class="articleTitle"><a href="">銀養有愛．食在健康</a></h3>
+							<span class="regency">【老人照顧服務響應計畫】</span>
+							<p class="articleDesc">
+								一份餐點與一個關心的問候，暖心暖胃、幸福加倍！<br><br>
+							</p>
+							<div class="articleMeta">
+								<a href="#"><i class="mdi mdi-eye nino-icon"></i> 1264</a>
+								<a href="#"><i class="mdi mdi-comment-multiple-outline nino-icon"></i> 69</a>
+							</div>
+						</article>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-6">
-						<div layout="row" class="item">
-							<div class="nino-avatar fsr">
-								<img class="img-circle" src="images/happy-client/img-3.jpg" alt="">
+					<div class="col-md-4 col-sm-4">
+						<article>
+							<div class="articleThumb">
+								<a href="#"><img src="images/story/dancing.jpg" alt=""></a>
+								<div class="date">
+									<span class="number">11</span>
+									<span class="text">July</span>
+								</div>
 							</div>
-							<div class="info">
-								<h4 class="name">銀養有愛.食在健康</h4>
-								<span class="regency">【老人照顧服務響應計畫】</span>
-								<p class="desc">
-									一份餐點與一個關心的問候，暖心暖胃幸福加倍！
-								</p>
-							</div>
-						</div>
+							<h3 class="articleTitle"><a href="">藝起照亮無障愛</a></h3>
+							<span class="regency">【志工演出】</span>
+							<p class="articleDesc">
+								為青年朋友提供展現自我的舞台，為更多的兒童編織一個不一樣的童年！<br>
+							</p>
+							<div class="articleMeta">
+								<a href="#"><i class="mdi mdi-eye nino-icon"></i> 543</a>
+								<a href="#"><i class="mdi mdi-comment-multiple-outline nino-icon"></i> 15</a>
+							</div><br>
+						</article>
 					</div>
-					<div class="col-md-6">
-						<div layout="row" class="item">
-							<div class="nino-avatar fsr">
-								<img class="img-circle" src="images/happy-client/dancing.png" alt="">
+					<div class="col-md-4 col-sm-4">
+						<article>
+							<div class="articleThumb">
+								<a href="#"><img src="images/story/cooking.jpg" alt=""></a>
+								<div class="date">
+									<span class="number">12</span>
+									<span class="text">July</span>
+								</div>
 							</div>
-							<div class="info">
-								<h4 class="name">愛的傳遞</h4>
-								<span class="regency">【志工演出】</span>
-								<p class="desc">
-									為青年朋友提供展現自我的舞台，為更多的兒童編織一個不一樣的戲劇之夜。
-								</p>
+							<h3 class="articleTitle"><a href="">愛心烘不讓</a></h3>
+							<span class="regency">【親子協作】</span>
+							<p class="articleDesc">
+								係很適合親子揪團報名同樂、或是企業家庭日團康..增進心關係！<br>
+							</p>
+							<div class="articleMeta">
+								<a href="#"><i class="mdi mdi-eye nino-icon"></i> 995</a>
+								<a href="#"><i class="mdi mdi-comment-multiple-outline nino-icon"></i> 42</a>
 							</div>
-						</div>
+						</article>
 					</div>
-					<div class="col-md-6">
-						<div layout="row" class="item">
-							<div class="nino-avatar fsr">
-								<img class="img-circle" src="images/happy-client/img-4.jpg" alt="">
+					<div class="col-md-4 col-sm-4">
+						<article>
+							<div class="articleThumb">
+								<a href="#"><img src="images/story/1kg.jpg" alt=""></a>
+								<div class="date">
+									<span class="number">13</span>
+									<span class="text">July</span>
+								</div>
 							</div>
-							<div class="info">
-								<h4 class="name">相關講座</h4>
-								<span class="regency">【專業座談】</span>
-								<p class="desc">
-									邀請不同專業領域人士進行跨界對談，收獲知識、學術、資訊溝通的方式！
-								</p>
+							<h3 class="articleTitle"><a href="">旅行好事集</a></h3>
+							<span class="regency">【多背一公斤.旅行有意義】</span>
+							<p class="articleDesc">
+								鼓勵旅遊者在旅途中進行舉手之勞的公益活動內容，來幫助貧困落後地區的孩子、單位！<br>
+							</p>
+							<div class="articleMeta">
+								<a href="#"><i class="mdi mdi-eye nino-icon"></i> 1264</a>
+								<a href="#"><i class="mdi mdi-comment-multiple-outline nino-icon"></i> 69</a>
 							</div>
-						</div>
+						</article>
 					</div>
-					<div class="col-md-6">
-						<div layout="row" class="item">
-							<div class="nino-avatar fsr">
-								<img class="img-circle" src="images/happy-client/img-4.jpg" alt="">
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-sm-4">
+						<article>
+							<div class="articleThumb">
+								<a href="#"><img src="images/story/lecture.jpg" alt=""></a>
+								<div class="date">
+									<span class="number">14</span>
+									<span class="text">July</span>
+								</div>
 							</div>
-							<div class="info">
-								<h4 class="name">企業愛心</h4>
-								<span class="regency">【公益行銷】</span>								     
-								<p class="desc">
-									企業為展現善盡社會責任的理念，發展出公益行銷模式，既可做善事又可行銷產品和品牌！
-								</p>
+							<h3 class="articleTitle"><a href="">相關講座</a></h3>
+							<span class="regency">【專業座談】</span>
+							<p class="articleDesc">
+								邀請不同專業領域人士進行跨界對談，收獲知識、學術、資訊的溝通方式！<br>
+							</p>
+							<div class="articleMeta">
+								<a href="#"><i class="mdi mdi-eye nino-icon"></i> 543</a>
+								<a href="#"><i class="mdi mdi-comment-multiple-outline nino-icon"></i> 15</a>
 							</div>
-						</div>
+						</article>
 					</div>
+					<div class="col-md-4 col-sm-4">
+						<article>
+							<div class="articleThumb">
+								<a href="#"><img src="images/story/business.jpg" alt=""></a>
+								<div class="date">
+									<span class="number">15</span>
+									<span class="text">July</span>
+								</div>
+							</div>
+							<h3 class="articleTitle"><a href="">企業愛心</a></h3>
+							<span class="regency">【公益行銷】</span>
+							<p class="articleDesc">
+								提供一個讓企業展現善盡社會責任的平台，行銷產品和品牌！<br><br>
+							</p>
+							<div class="articleMeta">
+								<a href="#"><i class="mdi mdi-eye nino-icon"></i> 995</a>
+								<a href="#"><i class="mdi mdi-comment-multiple-outline nino-icon"></i> 42</a>
+							</div>
+						</article>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<article>
+							<div class="articleThumb">
+								<a href="#"><img src="images/story/finance.jpg" alt=""></a>
+								<div class="date">
+									<span class="number">16</span>
+									<span class="text">July</span>
+								</div>
+							</div>
+							<h3 class="articleTitle"><a href="">植愛光芒</a></h3>
+							<span class="regency">【公益徵信資料揭露】</span>
+							<p class="articleDesc">
+								捐款徵信、實物徵信相關資料<br><br>
+							</p>
+							<div class="articleMeta">
+								<a href="#"><i class="mdi mdi-eye nino-icon"></i> 1264</a>
+								<a href="#"><i class="mdi mdi-comment-multiple-outline nino-icon"></i> 69</a>
+							</div>
+						</article>
+					</div>
+				</div>
 			</div>
     	</div>
-    </section><!--/#nino-happyClient-->
+    </section><!--/#nino-latestBlog-->
 
 
 
