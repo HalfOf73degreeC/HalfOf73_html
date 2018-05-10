@@ -352,6 +352,40 @@ img.img-full-width {
 	border: none;
 	font-size: 18px;
 }
+#nino-navbar1 .navbar-brand {
+	color: #fff;
+	font-weight: 700;
+	font-size: 20px;
+}
+#nino-navbar1 .navbar-nav > li > a {
+	color: #fff;
+	font-weight: 500;
+	text-transform: uppercase;
+	border-bottom: 3px solid transparent;
+	padding: 15px 5px 5px;
+	margin: 0 12px;
+}
+#nino-navbar1 .nino-menuItem {
+	float: right;
+}
+#nino-navbar1 .nino-iconsGroup li a {
+	border: none;
+	font-size: 18px;
+}
+.input-group .checkbox-group input{
+	margin-top: 10px;
+	margin-left: 10px;
+	height: 20px;
+	width: 20px;
+}
+.input-group .checkbox-group {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	flood-color: black;
+	border: none;
+}
 #nino-navbar .navbar-toggle {
 	margin-right: 0;
 	border: none;
@@ -473,7 +507,7 @@ section {
 	display: block;
 	text-transform: none;
 	font-weight: 500;
-	font-family: 'Kaushan Script', 'Microsoft JhengHei' , cursive;
+	font-family: 'Kaushan Script', 'Microsoft JhengHei', cursive;
 	font-size: 20px;
 	margin-bottom: 5px;
 }
@@ -901,7 +935,7 @@ footer .colInfo {
 footer .footerLogo a {
 	color: #ccc;
 	font-size: 40px;
-	font-family: 'Montserrat', 'Microsoft JhengHei', sans-serif;
+	ffont-family: 'Montserrat', 'Microsoft JhengHei', sans-serif;
 	font-weight: 700;
 	display: inline-block;
 	margin-bottom: 20px;
@@ -955,7 +989,7 @@ footer .nino-subscribeForm .input-group input {
 .input-group .input-group-btn .btn {
 	text-transform: uppercase;
 	font-weight: 700;
-	font-family: 'Montserrat', 'Microsoft JhengHei',sans-serif;
+	font-family: 'Montserrat', 'Microsoft JhengHei', sans-serif;
 	font-size: 14px;
 	background: #95e1d3;
 	border: none;
@@ -1074,7 +1108,7 @@ div.pp_pic_holder a {
 			transition: all 0s ease 0s;
 }
 div.pp_default .pp_description {
-	margin: 12px 50px 0 0;
+	margin: 12px ;
 }
 div.pp_default .pp_social {
 	width: 100%;
