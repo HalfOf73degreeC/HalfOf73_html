@@ -1,21 +1,12 @@
 /**
-* @author    java008.project@gmail.com
+* @author    Ninodezign.com http://www.ninodezign.com
+* @copyright Copyright (C) 2016 Ninodezign.com. All rights reserved.
 * @license   Ninodezign.com Proprietary License
 */
 /* ============================== DEFAULT HTML ============================== */
-
 @import 'https://fonts.googleapis.com/css?family=Montserrat:400,700';
 @import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700';
 @import 'https://fonts.googleapis.com/css?family=Kaushan+Script';
-
-@font-face {
-	font-family: myFont;
-  src: url(../myFont/myFont.eot); /* IE9 Compat Modes */
-  src: url(../myFont/myFont.eot?#iefix) format("embedded-opentype"), /* IE6-IE8 */
-       url(../myFont/myFont.woff) format("woff"), /* Modern Browsers */
-       url(../myFont/myFont.ttf) format("truetype"), /* Safari, Android, iOS */
-       url(../myFont/myFont.svg#myFont) format("svg"); /* Legacy iOS */
-}
 html, body {
 	line-height: 1.7;
 	margin: 0;
@@ -27,7 +18,7 @@ body {
 	font-weight: 400;
 	overflow-x: hidden;
 	position: relative;
-	font-family: 'Roboto', 'Microsoft JhengHei', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,main { 
     display: block;
@@ -72,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 5px 0 10px;
 	color: #333;
 	text-transform: uppercase;
-	font-family: 'Montserrat', 'Microsoft JhengHei', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 h1, h2 {
 	font-weight: 300;
@@ -242,8 +233,8 @@ img.img-full-width {
 /* =============== LAYOUT - HEADER AREA =============== */
 #nino-header {
 	position: relative;
-	font-family: 'Montserrat', 'Microsoft JhengHei', sans-serif;
-	background: url(../images/bg-header.jpg) no-repeat center center / cover;
+	font-family: 'Montserrat', sans-serif;
+	background: rgba(243, 129, 129, 0.9);
 }
 #nino-header:after {
 	content: "";
@@ -252,10 +243,10 @@ img.img-full-width {
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(243,129,129,0.7); /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
-	background: -webkit-linear-gradient(top, rgba(243,129,129,0.7), rgba(252, 227, 138, 0.7));
-	background: -o-linear-gradient(top, rgba(243,129,129,0.7), rgba(252, 227, 138, 0.7));
-	background: linear-gradient(to bottom, rgba(243,129,129,0.7), rgba(252, 227, 138, 0.7)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: rgba(243,129,129,0.9); /* fallback for old browsers */ /* Chrome 10-25, Safari 5.1-6 */
+	/*background: -webkit-linear-gradient(top, rgba(243,129,129,0.9), rgba(252, 227, 138, 0.9));
+	background: -o-linear-gradient(top, rgba(243,129,129,0.9), rgba(252, 227, 138, 0.9));
+	background: linear-gradient(to bottom, rgba(243,129,129,0.9), rgba(252, 227, 138, 0.9)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 #nino-headerInner {
 	position: relative;
@@ -352,40 +343,6 @@ img.img-full-width {
 	border: none;
 	font-size: 18px;
 }
-#nino-navbar1 .navbar-brand {
-	color: #fff;
-	font-weight: 700;
-	font-size: 20px;
-}
-#nino-navbar1 .navbar-nav > li > a {
-	color: #fff;
-	font-weight: 500;
-	text-transform: uppercase;
-	border-bottom: 3px solid transparent;
-	padding: 15px 5px 5px;
-	margin: 0 12px;
-}
-#nino-navbar1 .nino-menuItem {
-	float: right;
-}
-#nino-navbar1 .nino-iconsGroup li a {
-	border: none;
-	font-size: 18px;
-}
-.input-group .checkbox-group input{
-	margin-top: 10px;
-	margin-left: 10px;
-	height: 20px;
-	width: 20px;
-}
-.input-group .checkbox-group {
-	text-transform: uppercase;
-	font-weight: 700;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 14px;
-	flood-color: black;
-	border: none;
-}
 #nino-navbar .navbar-toggle {
 	margin-right: 0;
 	border: none;
@@ -403,7 +360,7 @@ img.img-full-width {
 	top: 0;
 	left: 0;
     width: 100%;
-    background: rgba(241, 114, 114, 0.7);
+    background: rgba(241, 114, 114, 0.96);
     z-index: 2;
     -webkit-animation-duration: .5s;
     		animation-duration: .5s;
@@ -441,7 +398,7 @@ img.img-full-width {
 }
 /* =============== LAYOUT - CONTENT AREA =============== */
 section {
-	padding: 100px 0;
+	padding: 80px 0;
 }
 #nino-slider .nino-sectionHeading {
 	font-size: 110px;
@@ -449,18 +406,6 @@ section {
 }
 #nino-slider .nino-sectionHeading .nino-subHeading {
 	font-size: 55px;
-	padding:13px;
-	margin-bottom:3px;
-}
-#nino-slider .nino-sectionHeading .nino-subHeadingn {
-	font-size: 25px;
-	padding:5px;
-	margin-bottom:3px;
-}
-#nino-slider .nino-sectionHeading .nino-subHeading-2 {
-	font-size: 55px;
-	padding:13px;
-	margin-bottom:3px;
 }
 #nino-slider .nino-sectionHeading:after {
 	background: #fff;
@@ -471,11 +416,11 @@ section {
 	line-height: 1;
 	position: relative;
 	padding-bottom: 20px;
-	margin-bottom: 0px;
+	margin-bottom: 30px;
 	text-align: center;
 	color: #333;
 }
-/*.nino-sectionHeading:after {
+.nino-sectionHeading:after {
 	content: "";
 	position: absolute;
 	left: 50%;
@@ -484,46 +429,65 @@ section {
 	height: 2px;
 	background: #f38181;
 	transform: translateX(-50%);
-}*/
+}
 .nino-sectionHeading .nino-subHeading {
 	display: block;
 	text-transform: none;
 	font-weight: 400;
-	font-family: 'Kaushan Script', 'Microsoft JhengHei', cursive;
+	font-family: 'Kaushan Script', cursive;
 	font-size: 20px;
 	margin-bottom: 20px;
-}
-.nino-sectionHeading .nino-subHeadingn {
-	display: block;
-	text-transform: none;
-	font-weight: 400;
-	font-family: 'myFont';
-	font-size: 20px;
-	margin-bottom: 20px;
-}
-.nino-sectionHeading .nino-subHeading-2 {
-	text-align: center;
-	padding-left:950px;
-	display: block;
-	text-transform: none;
-	font-weight: 500;
-	font-family: 'Kaushan Script', 'Microsoft JhengHei', cursive;
-	font-size: 20px;
-	margin-bottom: 5px;
-}
-.nino-sectionHeading .nino-subHeading-2:after {
-	content:"";
-	margin-left:52px;
-	width: 46%;
-	display: block;
-	text-transform: none;
-	border-bottom:1px #f38181 solid; 
-	padding-bottom:5px;
 }
 .nino-sectionDesc {
 	text-align: center;
 	max-width: 750px;
 	margin: 0 auto 40px;
+}
+/* =============== CHARITY GROUP INFO LAYOUT =============== */
+.content_nosplit_left {
+	text-align: left;
+	position: relative;
+	left: 25%;
+	/*clear: both;*/
+	width: 720px;
+	margin: 0;
+	/*float: left;*/
+}
+
+.content_nosplit_left article h2 {
+	font-size: 12pt;
+	font-weight: bold;
+	background: none;
+	border-bottom: 1px dotted #ccc;
+	margin: 0 0 15px 0;
+	padding: 0 0 10px 0;
+}
+
+.content_nosplit_left article h3 {
+	font-size: 11pt;
+	margin: 0 0 10px 0;
+}
+
+.content_nosplit_left article table {
+	margin: 0 0 15px 0;
+	border-top: 1px dotted #CCC;
+}
+
+.content_nosplit_left article table th {
+	color: #666;
+	padding: 5px;
+	text-align: right;
+	vertical-align: top;
+	border-bottom: 1px dotted #CCC;
+}
+
+.content_nosplit_left article table td {
+	padding: 5px;
+	border-bottom: 1px dotted #CCC;
+}
+
+.content_nosplit_left article ul {
+	margin: 0 0 0 20px;
 }
 /* =============== SECTION STORY ABOUT US =============== */
 #nino-story .content {
@@ -538,7 +502,7 @@ section {
 #nino-counting {
 	padding: 0;
 	background: #95e1d3;
-	font-family: 'Montserrat', 'Microsoft JhengHei', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	text-align: center;
 	color: #fff;
 	text-transform: uppercase;
@@ -687,7 +651,7 @@ section {
 	margin-bottom: 10px;
 }
 .nino-testimonialSlider .name {
-    font-family: 'Kaushan Script', 'Microsoft JhengHei', cursive;
+    font-family: 'Kaushan Script', cursive;
     font-size: 18px;
     position: relative;
     padding-left: 50px;
@@ -806,8 +770,7 @@ section {
 }
 /* =============== SECTION HAPPY CLIENT =============== */
 #nino-happyClient {
-	background: url(../images/happy-client/bg-happy-client.jpg) 
-	no-repeat center center / cover;
+	background: url(../images/happy-client/bg-happy-client.jpg) no-repeat center center / cover;
 }
 #nino-happyClient .item {
 	margin-bottom: 30px;
@@ -821,10 +784,10 @@ section {
 }
 #nino-happyClient .regency {
 	position: relative;
-	padding-bottom: 0px;
+	padding-bottom: 12px;
 	display: inline-block;
 	font-style: italic;
-	margin-bottom: 15px;
+	margin-bottom: 12px;
 }
 #nino-happyClient .regency:after {
 	content: "";
@@ -854,7 +817,7 @@ section {
 	font-size: 28px;
 	line-height: 100%;
 	font-weight: 700;
-	font-family: 'Montserrat', 'Microsoft JhengHei', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 #nino-latestBlog article .date .text {
 	display: block;
@@ -887,7 +850,7 @@ section {
 }
 /* =============== SECTION MAP =============== */
 #nino-map {
-	/*padding: 40px 0;*/
+	padding: 40px 0;
 	background: url(../images/map/bg-map.jpg) no-repeat center center / cover;
 }
 #nino-map .nino-sectionHeading {
@@ -921,8 +884,11 @@ section {
 }
 /* =============== LAYOUT - FOOTER AREA =============== */
 footer {
+
 	padding-top: 50px;
 	background: #f8f8f8;
+	position: relative;
+	clear: both;
 }
 footer .nino-colHeading {
 	margin: 0 0 25px;
@@ -935,7 +901,7 @@ footer .colInfo {
 footer .footerLogo a {
 	color: #ccc;
 	font-size: 40px;
-	font-family: 'Montserrat', 'Microsoft JhengHei', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
 	display: inline-block;
 	margin-bottom: 20px;
@@ -947,7 +913,7 @@ footer .nino-followUs {
 footer .nino-followUs .totalFollow {
 	color: #333;
 	font-weight: 500;
-	font-family: 'Montserrat', 'Microsoft JhengHei', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	border-bottom: 1px solid #e5e5e5;
 	padding-bottom: 5px;
 	margin-bottom: 10px;
@@ -978,20 +944,12 @@ footer .nino-subscribeForm .input-group input {
 	font-style: italic;
 	font-size: 15px;
 }
-/*footer .nino-subscribeForm .input-group .btn {
+footer .nino-subscribeForm .input-group .btn {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 14px;
 	background: #95e1d3;
-	border: none;
-}*/
-.input-group .input-group-btn .btn {
-	text-transform: uppercase;
-	font-weight: 700;
-	font-family: 'Montserrat', 'Microsoft JhengHei', sans-serif;
-	font-size: 14px;
-	background: #69cebb;
 	border: none;
 }
 /* ----------- COL 2 ----------- */
@@ -1108,12 +1066,11 @@ div.pp_pic_holder a {
 			transition: all 0s ease 0s;
 }
 div.pp_default .pp_description {
-	margin: 12px ;
+	margin: 12px 50px 0 0;
 }
 div.pp_default .pp_social {
 	width: 100%;
 }
-
 /* ============================================================ RESPONSIVE ============================================================ */
 @media (max-width: 1200px) {
 
@@ -1223,12 +1180,6 @@ div.pp_default .pp_social {
 	#nino-slider .nino-sectionHeading .nino-subHeading {
 	    font-size: 35px;
 	}
-	#nino-slider .nino-sectionHeading .nino-subHeadingn {
-	    font-size: 15px;
-	}
-	#nino-slider .nino-sectionHeading .nino-subHeading-2 {
-	    font-size: 35px;
-	}
 	/* =============== SECTION UNIQUE DESIGN =============== */
 	#nino-uniqueDesign .nino-devices .mobile {
 		margin-left: 65px;
@@ -1313,26 +1264,6 @@ div.pp_default .pp_social {
 	.nino-sectionHeading .nino-subHeading {
 		font-size: 16px;
 		margin-bottom: 10px;
-		text-align: center;
-	}
-	.nino-sectionHeading .nino-subHeadingn {
-		font-size: 8px;
-		margin-bottom: 10px;
-		padding-left:60%;
-	}
-	.nino-sectionHeading .nino-subHeading-2 {
-		font-size: 16px;
-		margin-bottom: 10px;
-		padding-left:60%;
-	}
-	.nino-sectionHeading .nino-subHeading-2:after {
-		content:"";
-		margin-left:24%;
-		width: 52%;
-		display: block;
-		text-transform: none;
-		border-bottom:1px #f38181 solid; 
-		padding-bottom:5px;
 	}
 	.nino-sectionDesc {
 		margin-bottom: 20px;
@@ -1342,12 +1273,6 @@ div.pp_default .pp_social {
 		font-size: 45px;
 	}
 	#nino-slider .nino-sectionHeading .nino-subHeading {
-		font-size: 22px;
-	}
-	#nino-slider .nino-sectionHeading .nino-subHeadingn {
-		font-size: 11px;
-	}
-	#nino-slider .nino-sectionHeading .nino-subHeading-2 {
 		font-size: 22px;
 	}
 	#nino-slider .carousel-inner {
@@ -1409,6 +1334,7 @@ div.pp_default .pp_social {
 	}
 	/* =============== FOOTER =============== */
 	footer {
+		
 		padding-top: 30px;
 	}
 

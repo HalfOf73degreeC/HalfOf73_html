@@ -44,6 +44,8 @@ jQuery(function($) {
 			itemSelector : 'li',
 			layoutMode : 'masonry'
 		});
+		$("#nino-map").toggleClass("showMap");
+		$(this).find(".text").toggle();
 	});
 	
 	/* =============== PORTFOLIO HOVER EFFECT =============== */
@@ -53,22 +55,6 @@ jQuery(function($) {
 	$("a.nino-prettyPhoto").prettyPhoto();
 	
 	/* =============== SMOOTH SCROOL EFFECT =============== */
-	// $('#nino-navbar ul li a').on('click',function (e) {
-		
-	// 	    e.preventDefault();
-	// 	    var target = this.hash,
-	// 	    $target = $(target);
-	// 	    console.log(target);
-	// 	if(target!="#memberzone"){
-	// 	    $('html, body').stop().animate({
-	// 	        'scrollTop': $target.offset().top
-	// 	    }, 500, 'swing', function () {
-	// 	        window.location.hash = target;
-	// 	    });
-	// 	}else{
-	// 		window.location.replace("memberzone.html");
-	// 	}
-	// });
 	$('#nino-navbar ul li a').on('click',function (e) {
 			e.preventDefault();
 			var target = this.hash,
